@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Monospace ;
+    src: url('Lucida Console');
+}
+
+
+body{
+  background-color:#ba4393 ; 
+  font-family: monospace; 
+}
+
+picture img{
+    width: 100px;
+	align-items: right;
+}
+
+
+
+header{
+    display: flex;
+    background-color:#b19cd9; 
+    align-items: center;
+    box-shadow: 3px 3px 3px 3px purple;
+    border-radius: .9rem;
+    padding-left: 0.8rem;
+}
+
+ul{
+    display: flex;
+
+}
+
+nav a{
+   color: #ba4393; 
+   text-decoration: none;
+   font-size: 1.1em;
+   background-color: rgba(0, 0, 0, 0.818);
+   color: white;
+   padding: 0.3em;
+   border-radius: 1em;
+}
+
+a:hover{
+    background-color: rgba(0, 0, 0, 0.618);
+   font-size: 1.2em; 
+}
+li{
+    margin-right: 100px;
+    list-style-type: none;
+   
+}
+
+main{
+    box-shadow: 1px 1px 1px 1px black;
+	font-size:16px;
+	color: purple;
+    height: auto;
+    width: 80vw;
+    margin: 1rem auto;
+    padding: 1rem ;
+    border-radius: 1rem;
+    background-color: #b19cd9 ;
+}
+
+.container img{
+    width: 30vw;
+    
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+
+.container .imagem{
+  text-align: center;
+    padding: 1em;
+}
+
+section.titulo img{
+    width: 50vw;
+    border: 1px solid black;
+}
+
+section.titulo p{
+   font-weight: bold;
+}
+
+section.titulo{
+    text-align: center;
+}
+
+div.consoles{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+section.conteudo img{
+    width: 10vw;
+
+}
+
+.conteudo > h1{
+    text-align: center;
+}
+
+div.copyright{
+	
+	text-align:center;
+	
+}
+
+footer .copyright{
+	background-image: url(footer.png);
+    text-align: center;
+    color: #ba4393; 
+    font-size: 1.5em;
+    font-weight: bold;
+	border-radius:5px;
+}
+
+footer .texto{
+	background-image: url(footer.png);
+    color: #ba4393; 
+    text-align: center;
+	border-radius:5px;
+}
+
+div.img2 {
+	
+
+	
+}
+
+tr {
+	display: flex;
+	padding:5px;
+	
+}
+
+td {
+	padding: 3px;
+	margin:3px;
+	
+	
+}
+
+img {
+   opacity: 0.9;
+   border-radius:20px;
+   box-shadow:30px purple;
+}
+
+
